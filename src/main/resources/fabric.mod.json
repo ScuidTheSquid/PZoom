@@ -12,7 +12,7 @@
 		"sources": "https://github.com/scuid"
 	},
 	"license": "Do whatever you want",
-	"icon": "assets/modid/icon.png",
+	"icon": "assets/pzoom/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
