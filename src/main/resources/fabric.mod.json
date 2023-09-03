@@ -11,7 +11,7 @@
 		"homepage": "https://doyouthinkihavethemoneyforadomainfuckno.epic/",
 		"sources": "https://github.com/scuid"
 	},
-	"license": "Do whatever you want",
+	"license": "GNU GPL-3",
 	"icon": "assets/pzoom/icon.png",
 	"environment": "*",
 	"entrypoints": {
