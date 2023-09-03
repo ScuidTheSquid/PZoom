@@ -1,0 +1,41 @@
+{
+	"schemaVersion": 1,
+	"id": "pzoom",
+	"version": "${version}",
+	"name": "PZoom",
+	"description": "Probably the worst coded Zoom mod on this planet. I literally probably wont even use this myself, so you might as well delete it.",
+	"authors": [
+		"Me! (ScuidTheSquid)"
+	],
+	"contact": {
+		"homepage": "https://doyouthinkihavethemoneyforadomainfuckno.epic/",
+		"sources": "https://github.com/scuid"
+	},
+	"license": "Do whatever you want",
+	"icon": "assets/modid/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"me.scuidthesquid.pzoom.PZoom"
+		],
+		"client": [
+			"me.scuidthesquid.pzoom.PZoomClient"
+		]
+	},
+	"mixins": [
+		"pzoom.mixins.json",
+		{
+			"config": "pzoom.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.14.21",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

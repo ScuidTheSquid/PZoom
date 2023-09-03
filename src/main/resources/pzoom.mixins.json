@@ -1,0 +1,11 @@
+{
+	"required": true,
+	"package": "me.scuidthesquid.pzoom.mixin",
+	"compatibilityLevel": "JAVA_17",
+	"mixins": [
+		"PZoomMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}
